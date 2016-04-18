@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ng="http://angularjs.org/" lang="en">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="unosquare, oss software, password change, active directory, mit license, password, account utilities, user account" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="description" content="Рішення для зміни пароля." />
+    <meta name="author" content="GSI" />
+    <meta name="title" content="Донецький національний університет" />
+    <meta property="og:image" content="images/donnu.png" />
+    <meta property="og:title" content="Донецький національний університет - Зміна паролю" />
+
+    <title ng-controller="TitleCtrl as ctrl" ng-bind="ctrl.content">Loading . . .</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="vendor/vendor.min.css" />
+    <link rel="stylesheet" href="styles/app.min.css" />
+
+    <script src="vendor/vendor.min.js"></script>
+    <script src="scripts/app.min.js"></script>
+
+</head>
+<body ng-cloak>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="header-logo">
+                        <a target="_blank" href="http://www.donnu.edu.ua">
+                            <img src="images/donnu-logo.png" alt="DonNu logo" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ng-view></ng-view>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
