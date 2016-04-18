@@ -1,5 +1,25 @@
 ﻿body {
     background-color: #fcfcfc;
+    font-family: "Segoe UI", "Segoe UI Light";
+}
+label {
+    font-weight: normal;
+}
+header {
+    font-size: 15px;
+}
+
+    header div.header-logo {
+        display: inline-block;   
+    }
+
+    header div.header-text {
+        display: inline-block;
+        float: right;
+        padding-top: 10px;
+    }
+.panel-primary > .panel-heading {
+    background-color: #607BB8;
 }
 
 div.panel.panel-primary {
@@ -14,28 +34,13 @@ span.panel-title {
 i.panel-title {
     font-size: 18px;
 }
-
-footer {
-    text-align: right;
-    font-size: 11px;
+#changePassword{
+    background-color: #607BB8;
+    border-color: #607BB8;
 }
 
-    footer div.footer-logo {
-        text-align: left;
-        float: left;
-    }
-
-        footer div.footer-logo img {
-            opacity: 0.6;
-        }
-
-    footer div.footer-text {
-        padding-top: 10px;
-        float: right;
-    }
-
 #changePasswordForm {
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 div.form-overlay {
@@ -67,6 +72,10 @@ div.form-overlay-spinner {
 
 .center-align {
     text-align: center;
+}
+
+.right-align {
+    text-align: right;
 }
 
 .alert-title {

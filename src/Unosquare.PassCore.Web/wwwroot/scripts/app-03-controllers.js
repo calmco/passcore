@@ -30,6 +30,8 @@
                     Recaptcha: '',
                 };
 
+                $scope.htmlPopover = $sce.trustAsHtml(ViewOptions.ChangePasswordForm.HelpText);
+
                 $scope.EmptyFormData = angular.copy($scope.FormData);
 
                 $scope.SetRecaptchaResponse = function (response) {

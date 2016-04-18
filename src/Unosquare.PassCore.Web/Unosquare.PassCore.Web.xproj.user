@@ -4,6 +4,7 @@
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
     <DebugCLRTypeOverride>Profile</DebugCLRTypeOverride>
     <ShowAllFiles>true</ShowAllFiles>
+    <NameOfLastUsedPublishProfile>PubToFile</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -26,6 +26,7 @@
     public class ClientSettings
     {
         public string ApplicationTitle { get; set; }
+        public string ApplicationFormTitle { get; set; }
         public string ChangePasswordTitle { get; set; }
         public ChangePasswordForm ChangePasswordForm { get; set; }
         public List<string> ErrorMessages { get; set; }
